@@ -37,6 +37,7 @@ module.exports = SwaggerClient;
 
 SwaggerClient.ApiKeyAuthorization = auth.ApiKeyAuthorization;
 SwaggerClient.PasswordAuthorization = auth.PasswordAuthorization;
+SwaggerClient.Oauth1Authorization = auth.Oauth1Authorization;
 SwaggerClient.CookieAuthorization = auth.CookieAuthorization;
 SwaggerClient.SwaggerApi = deprecationWrapper;
 SwaggerClient.SwaggerClient = deprecationWrapper;
